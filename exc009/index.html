@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OUtras Formatações</title>
+</head>
+<body>
+    <h1>Outras Fortamações</h1>
+    <h2>código fonte/pre-formatação</h2>
+    <p>o comando <code>document.getElementById('teste')</code> é escrito em linguagem javaScript usando a fonte monoespaçada que deixa o mesmo espaço entre as letras,  com o comando < code></p>
+    <code>
+        num = int(input('Digite um numero'))
+        if num % 2 == 0:
+                print(f'0 numero {num} é PAR')
+        else:
+            print(f'O número {num} é IMPAR')    
+            print('Fim do programa')    
+    </code>
+    <p>o comando code nao faz identação no código escrito, mas se enveloparmos toda a tag code dentro de uma tag < pre>, ja dá certo, por que a tag pre vai considerar tudo(espaço, quebra de linha...) exemplo abaixo:</p>
+    <pre>
+        <code>
+            num = int(input('Digite um numero'))
+            if num % 2 == 0:
+                    print(f'0 numero {num} é PAR')
+            else:
+                print(f'O número {num} é IMPAR')    
+                print('Fim do programa')    
+        </code>
+    </pre>
+    <p>apertando a tecla shit+tab dentro da tag pre o codigo fica alinhado à esquerda:</p>
+    <pre>
+        <code>
+num = int(input('Digite um numero'))
+if num % 2 == 0:
+        print(f'0 numero {num} é PAR')
+else:
+    print(f'O número {num} é IMPAR')    
+print('Fim do programa')    
+        </code>
+    </pre>
+    <h2>Citações:</h2>
+    <p>como diria o pai de um amigo: <q>o computador é um burro muito rápido</q>, posso colocar as citações com a tag < q> que segnifica quote(citação)</p>
+    <h2>Citações completas:</h2>
+    <p>segundo fulano: no seu livro blablabla:</p>
+    <blockquote>
+        Hypertexto é todo texto inserido em um documento para web
+    </blockquote>
+    <p>aqui usei a tag < blockquote> que desloca a citação ainda posso colocar o link do endereço que vai ajudar o google a saber que essa frase referencia o livro: 
+        <br>
+        < blockquote <mark>cite="https://www.google.com.br/books/edition/Fundamentos_de_HTML5_e_CSS3/2iPYCQAAQBAJ?hl=pt-BR&gbpv=1&dq=html&printsec=frontcover"</mark>>
+        Hypertexto é todo texto inserido em um documento para web
+    </blockquote>
+    </p>
+    <h2>Abreviações:</h2>
+    <p>estou estudando <abbr title="Hypertext Markup Language">html</abbr> e <abbr title="Cascading Style Sheets">css</abbr>. ele ja da a opção do que vai ficar na caixinha de comentario: < abbr title="Hypertext Markup Language">html</abbr> </p>
+    <h2>Texto invertido:</h2>
+    <p><bdo dir="rtl"> estou aprendendo a criar coisas em html</bdo>. voce pode escolher a direcao do texto: < <mark>bdo dir="rtl"</mark>(rtl=> right to left)</bdo>)></bdo></p>
+    
+</body>
+</html>
