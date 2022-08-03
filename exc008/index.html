@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação de Textos</title>
+    <style>
+        mark{
+            background-color: chartreuse;
+        }
+    </style>
+</head>
+<body>
+    <h1>Principais Formatações</h1>
+    <h2>Negrito/ Destaque</h2>
+    <p>Nessa frase temos um <b>termo em negrito</b> usando a tag b(não semantica)</p>
+    <p>Nesta frase tenho um <strong>termo em destaque</strong> usando a tag STRONG(dá sentido ao termo strong: forte)</p>
+    <h2>Itálico/ênfase</h2>
+    <p>nesta frase temos um <i>termo em itálico</i> usando a tag I(não semantica).</p>
+    <p>nesta frase temos um <em>termo em ênfase</em> usando o termo EM(SIGNIFICA ENFASE)</p>
+    <h2>texto marcado(marcador de texto)</h2>
+    <p>podemos criar também <mark style="background-color: rgb(82, 197, 82)">um texto marcado</mark> usando a tag MARK</p>
+    <p>para mudar a cor do marcado usei css: < mark <mark>style="background-color: lime"</mark>> </p>
+    <p>e no outro paragrafo temos <mark>outro texto marcado no final</mark></p>
+    <p>outra opção é eu ir no head e criar um seletor pra mar do tipo < style>mark{background-color: ...;}</style> assim ele define que <strong>TODAS AS MARCAÇÕES</strong> vao ser de uma cor só</p>
+<h2>Texto grande e pequeno</h2>
+<p>estamos criando um <big>texto grande</big> e um <small>texto pequeno</small> nesse paragrafo com as tags < big>(obsoleto) e < small>(não obsoleto)</p>
+<h2>Texto deletado</h2>
+<p>podemos marcar <del>um texto excluido</del> p indicar que ele deve ser lido, mas nao considerado, usando a tag < del></p>
+<h2>Texto inserido</h2>
+<p>podemos marcar <ins>um texto como inserido</ins> p dar um enfase e indicar que ele foi adicionado depois, usando a tag < ins></p>
+<p>existe tamb´pem o <u>texto sublinhado </u>usando a tag U(não semantica)</p>
+<h2>Texto sobrescrito</h2>
+<p>para inserir coisas do tipo : x <sup>20</sup>+3 usando a tag < sup></p>
+<h2>texto subscrito</h2>
+para inserir coisas do tipo: H<sub>2</sub>O usando a tag < sub>
+</body>
+</html>
