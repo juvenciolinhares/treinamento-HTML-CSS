@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        
+        body{
+            font-family:Arial, Helvetica, sans-serif;
+            /*Medidas absolutas
+            cm, ml, in(polegada), px,pt(ponto), pc(paica)
+
+            Medias relativas
+            em, ex, rem, vw, vh, %
+            16px, geralmente = 1 em
+            */
+            font-size: 1em;
+            font-weight: normal;
+            font-style: italic;
+            
+        }
+        h1{
+           /* font-family: 'work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;*/
+
+           /*shorthand (mãozinha)*/
+           /*ordem obrigatória: font style-> font weight->font-size->font-family
+*/
+           font: italic bolder 3em 'work Sans', sans-serif;
+        }
+        h2{
+            font: bold 2m 'work Sans', sans-serif;
+        }
+        
+    </style>
+</head>
+<body>
+    <H1>Trabalhando com Fontes</H1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, vitae ex. Necessitatibus maxime esse sit earum quas, corrupti minus, veniam temporibus ipsam numquam in quam, molestiae recusandae impedit fuga non. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum quam sit quis, numquam dolorem id aut nam, corporis laudantium ullam exercitationem assumenda iusto reprehenderit aspernatur architecto cum consequatur in suscipit.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus accusamus inventore corporis! Eligendi veniam illum quasi perspiciatis doloremque ducimus vero, eius eaque facere, assumenda dignissimos at, vitae quisquam inventore fugiat!</p>
+    <h2>subtitulo do exercicio</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet nisi accusantium quisquam magni, tempore est neque, vero quaerat, dolor eum aspernatur? Exercitationem id modi laborum voluptates, earum corporis nesciunt eligendi.</p>
+</body>
+</html>
